@@ -1,0 +1,97 @@
+/* General Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ece5dd;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #075e54;
+    margin-bottom: 25px;
+}
+
+/* New Chat Button */
+body > form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+body > form button {
+    background-color: #25d366;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body > form button:hover {
+    background-color: #1ebe5d;
+}
+
+/* Chat Box */
+.chat {
+    background-color: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Message Bubble */
+.msg {
+    background-color: #dcf8c6;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Paragraphs */
+.chat p {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+/* Buttons */
+.msg button {
+    border: none;
+    padding: 8px 14px;
+    margin-top: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Edit Button */
+.msg form:first-of-type button {
+    background-color: #34b7f1;
+    color: white;
+}
+
+.msg form:first-of-type button:hover {
+    background-color: #269ed6;
+}
+
+/* Delete Button */
+.msg form:last-of-type button {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.msg form:last-of-type button:hover {
+    background-color: #e63939;
+}
+
+/* Line */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 65%;
+}
