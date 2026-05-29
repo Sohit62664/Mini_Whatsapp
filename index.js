@@ -24,7 +24,14 @@ async function main() {
 //index Rout
 app.get("/chats", async (req, res) => {
     let chats = await Chat.find();
-    console.log(chats);
+    // console.log(chats);
+
+    res.render("index.ejs", { chats });
+});
+
+app.get("/", async (req, res) => {
+    let chats = await Chat.find();
+    // console.log(chats);
 
     res.render("index.ejs", { chats });
 });
